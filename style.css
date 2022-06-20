@@ -28,7 +28,6 @@ a {
     opacity: 1; 
 }
 
-
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -49,11 +48,10 @@ a {
   }
   
   .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 17px;  
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -89,6 +87,8 @@ a {
     display: block;
   }
 
+
+
 .header_logo {
     top: 40px;
     left: 868px;
@@ -104,38 +104,39 @@ a {
     opacity: 1;
 }
 
-.page-header-search-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
+page-header-search-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .page-header-search-btn:hover svg {
+    fill: orange;
+  }
+  
+  .page-header-search-input {
+    width: 0;
+    min-height: 0;
+    margin-left: 10px;
+    background-color: initial;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    color: #FFF;
+    border-color: transparent;
+  }
+  
+  .page-header-search-input:focus {
+    width: 150px;
+    min-height: 20px;
+    -webkit-transition: width 1s ease;
+    transition: width 1s ease;
+    border: 2px solid #fff;
+  }
 
-.page-header-search-btn:hover svg {
-  fill: orange;
-}
-
-.page-header-search-input {
-  width: 0;
-  min-height: 0;
-  margin-left: 10px;
-  background-color: initial;
-  padding: 5px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: #FFF;
-  border-color: transparent;
-}
-
-.page-header-search-input:focus {
-  width: 150px;
-  min-height: 20px;
-  -webkit-transition: width 1s ease;
-  transition: width 1s ease;
-  border: 2px solid #fff;
-}
 
 .main {
     background: #333333;
