@@ -87,7 +87,9 @@ a {
     display: block;
   }
 
-
+  .dropdown:hover svg {
+    fill: orange;
+  }
 
 .header_logo {
     top: 40px;
@@ -104,7 +106,7 @@ a {
     opacity: 1;
 }
 
-page-header-search-btn {
+.page-header-search-btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -136,6 +138,25 @@ page-header-search-btn {
     transition: width 1s ease;
     border: 2px solid #fff;
   }
+
+  .search-form{
+    position: relative;
+    margin-right: 50px;
+    display: inline-block;
+}
+  .search-field:focus{
+    outline: none;
+}
+  .search-field {
+    box-sizing: border-box;
+    width: 200px;
+    color: #fafafa;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fafafa;
+}
+
 
 
 .main {
